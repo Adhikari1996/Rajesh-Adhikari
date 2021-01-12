@@ -16,7 +16,7 @@ body {
   padding: 0;
 }
 
-body *{
+body * {
   transition: 0.3s;
 }
 
@@ -55,10 +55,10 @@ textarea {
 }
 
 .greeting-wrapper {
-  display: grid;   
+  display: grid;
   text-align: center;
   align-content: center;
-  min-height: 10em; 
+  min-height: 10em;
 }
 
 .intro-wrapper {
@@ -85,8 +85,8 @@ textarea {
   border-radius: 5px 5px 0 0;
 }
 
-#navigation a{
-  color:var(--mainText);
+#navigation a {
+  color: var(--mainText);
 }
 #navigation {
   margin: 0;
@@ -195,13 +195,12 @@ textarea {
   height: 180px;
   padding-left: 30px;
   padding-top: 30px;
-  
 }
 
 #preview {
   width: 300px;
   border: 1.5px solid #17a2b8;
-  background-color:var(--preview);
+  background-color: var(--preview);
   padding: 15px;
   position: relative;
 }
@@ -334,22 +333,22 @@ h6 {
   margin-bottom: 50px;
 }
 
-#contact-form label{
-line-height: 2.7em;
+#contact-form label {
+  line-height: 2.7em;
 }
 
-#contact-form textarea{
-  min-height:100px;
-  font-size:14px; 
+#contact-form textarea {
+  min-height: 100px;
+  font-size: 14px;
 }
 
-.input-field{
-  width:100%;
-  padding-top:10px;
+.input-field {
+  width: 100%;
+  padding-top: 10px;
   padding-bottom: 10px;
   background-color: var(--secondaryColor);
   border-radius: 5px;
-  border:1px solid var(--borderColor);
+  border: 1px solid var(--borderColor);
   font-stretch: 14px;
 }
 
@@ -378,5 +377,20 @@ line-height: 2.7em;
   }
   .right-column {
     justify-content: center;
+  }
+  #preview {
+    padding: 15px;
+    position: absolute;
+    left: 15px;
+  }
+  .about-wrapper {
+    padding: 25px 12px;
+    gap: 30px;
+  }
+  #skills {
+    display: block;
+    padding: 5px;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
   }
 }
